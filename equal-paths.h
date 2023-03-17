@@ -29,4 +29,6 @@ struct Node {
  */
 bool equalPaths(Node * root);
 
+int branchHeight(Node * root);
+
 #endif
