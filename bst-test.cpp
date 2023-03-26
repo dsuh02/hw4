@@ -30,7 +30,6 @@ int main(int argc, char *argv[])
     AVLTree<char,int> at;
     at.insert(std::make_pair('a',1));
     at.insert(std::make_pair('b',2));
-
     cout << "\nAVLTree contents:" << endl;
     for(AVLTree<char,int>::iterator it = at.begin(); it != at.end(); ++it) {
         cout << it->first << " " << it->second << endl;
